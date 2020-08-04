@@ -29,7 +29,7 @@ to use.
 ## Requests and limits
 
 If the node where a Pod is running has enough of a resource available, it's possible (and
-allowed) for a container to use more resource than its `request` for that resource specifies.
+allowed) for a container to use more resource than its `request` for that resource than specified.
 However, a container is not allowed to use more than its resource `limit`.
 
 For example, if you set a `memory` request of 256 MiB for a container, and that container is in
